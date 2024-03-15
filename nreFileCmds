@@ -20,3 +20,9 @@ nre -testheap
 
 //Set the default locale eg. (en_GB) or (en_US)
 nre -locale:<x> 
+
+[testing in progress]
+//Boot a station from the console
+plat startstation -h:local: -p:5011 template_0_0
+plat startstation -h:<hostOrd> -p:5011 {stationName}
+if stationName left off it will start the station if it is the only one on localhost
