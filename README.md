@@ -1,5 +1,5 @@
 # NiagaraConsoleCmds
-##A collection of Commands that can be used in an N4 console which can be used to pull information from Tridium Niagara N4 Workbench. 
+## A collection of Commands that can be used in an N4 console which can be used to pull information from Tridium Niagara N4 Workbench. 
 These include:
     Finding a host ID without booting workbench
     Finding out your platform user on a supervisor or engineering laptop when the user directory is not used.
