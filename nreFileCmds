@@ -1,0 +1,22 @@
+***************************************************************************************************************************************************************************
+
+//These commands can be used in any console booted as an administrator from any Niagara Version /bin/ file (C:[Niagara][Niagara version]\bin\console.exe)
+//Doing these searches saves time as they can be done without waiting for workbench to load
+
+***************************************************************************************************************************************************************************
+
+
+//Get the Host ID
+nre -hostid
+
+//Get license information
+nre -licenses
+
+//Get property information of the nre including the platform user name  (user.name) and directory information, runtimes, java versions and other information. 
+nre -props
+
+//Run a max Heap Test
+nre -testheap
+
+//Set the default locale eg. (en_GB) or (en_US)
+nre -locale:<x> 
