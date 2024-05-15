@@ -1,0 +1,68 @@
+Shows the IP Config of a remote controller
+plat ipconfig
+To select the correct controller add the -h:<ord> in this case an IP address so the ord is prefixed with ip:[ip address]
+plat ipconfig -h:ip:192.168.1.140
+By default it will look for the unsecure platform port on 3011 to change this add -p:<port>
+plat ipconfig -h:ip:192.168.1.140 -p:5011
+You will need the platform user and password and you will be prompted for them
+
+Shows a list of stations running on a remote controller
+plat liststations
+To select the correct controller add the -h:<ord> in this case an IP address so the ord is prefixed with ip:[ip address]
+plat liststations -h:ip:192.168.1.140
+By default it will look for the unsecure platform port on 3011 to change this add -p:<port>
+plat liststations -h:ip:192.168.1.140 -p:5011
+You will need the platform user and password and you will be prompted for them
+
+As above but if you use command:
+details
+You can get the 
+Host ID
+Model
+Licence expiry
+Ram and File System info 
+Modules list 
+Under applications you can get Station Name and port information for the station
+and much more!
+
+
+List of other commands available:
+commands:
+  bigfiles
+    display a list of the largest files on a remote host
+  details
+    display a configuration summary for a remote host
+  distinstall
+    install distribution files to a remote host
+  fget
+    get one or more files from a remote host
+  flist
+    provide file details for a single file, or for all files in a directory
+  ipconfig
+    display the TCP/IP configuration for a remote host
+  jacejar
+    create Niagara module files that can be run on embedded hosts
+  liststations
+    list stations managed by the Niagara platform daemon
+  moduleinstall
+    install Niagara modules to a remote host
+  reboothost
+    request that a remote Niagara Platform Daemon reboot its host
+  script
+    run one or more platform commands in a script
+  startstation
+    request that a Niagara Platform Daemon start a station
+  stopstation
+    request that a Niagara Platform Daemon stop a station
+  tellstation
+    send text to the console of a running Niagara Station
+  watchstation
+    monitor the output of a Niagara station
+  installdaemon
+    install the Niagara Platform service (Windows only)
+  uninstalldaemon
+    remove the Niagara Platform service (Windows only)
+  stopdaemon
+    stop the Niagara Platform service (Windows only)
+  restartdaemon
+    restart the Niagara Platform service (Windows only)
