@@ -7,7 +7,8 @@ These include:
 
 These commands can be used in any console booted as an administrator from any Niagara Version /bin/ file (C:\[Niagara]\[Niagara version]\bin\console.exe)
 
-Nre commands
+[Nre commands](https://github.com/thomasjupe/NiagaraConsoleCmds/blob/main/nreFileCmds)
 
+[Plat commands](https://github.com/thomasjupe/NiagaraConsoleCmds/blob/main/platFileCmds)
 
     
