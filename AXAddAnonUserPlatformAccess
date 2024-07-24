@@ -1,0 +1,6 @@
+#Add an Anon User to workbench for platform access:
+#Add the following to the [niagaraversion]Daemon>Daemonfile
+
+authtype=digest/file
+user=xxxx
+password=xxxx
